@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="483a261b-83be-4f1e-acb7-ab7f122dd70d" name="Changes" comment="Initalisierung">
-      <change beforePath="$PROJECT_DIR$/src/DAO/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/User.java" afterDir="false" />
+    <list default="true" id="483a261b-83be-4f1e-acb7-ab7f122dd70d" name="Changes" comment="Renamed folder Add User Object User">
+      <change beforePath="$PROJECT_DIR$/src/database/InMemoryDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/InMemoryDatabase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693226722700</updated>
-      <workItem from="1693226723851" duration="1747000" />
+      <workItem from="1693226723851" duration="2428000" />
     </task>
     <task id="LOCAL-00001" summary="Initalisierung">
       <created>1693228158093</created>
@@ -58,7 +58,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693228158093</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Renamed folder Add User Object User">
+      <created>1693228547123</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693228547123</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,6 +84,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initalisierung" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initalisierung" />
+    <MESSAGE value="Renamed folder Add User Object User" />
+    <option name="LAST_COMMIT_MESSAGE" value="Renamed folder Add User Object User" />
   </component>
 </project>
