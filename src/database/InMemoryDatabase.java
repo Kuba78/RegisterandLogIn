@@ -23,4 +23,35 @@ return boolean if user successfully added, false if null or not added.
         }
         return false;
     }
+
+    public boolean removeUser(int userId) {
+        for (User user : this.userDatabase){
+            if(user.getId() == userId){
+                return this.userDatabase.remove(user);
+            }
+        }
+
+        return false;
+    }
+    public User getUser(int userId){
+        for (User user : this.userDatabase) {
+            if (user.getId() == userId) {
+                return user;
+            }
+        }
+        return null;
+    }
+    public User getUser(String email){
+        if(email != null){
+            for(User user : this.userDatabase){
+                if(user.getEmail().equals(email)){
+                    return user;
+                }
+            }
+        }
+        return null;
+    }
+    public ArrayList<User> getAllUser(){
+        return this.userDatabase;
+    }
 }
